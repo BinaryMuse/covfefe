@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Covfefeize'
+      'command': 'covfefe:covfefeize'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'covfefe'
+      'submenu': [
+        {
+          'label': 'Covfefeize'
+          'command': 'covfefe:covfefeize'
+        }
+      ]
+    ]
+  }
+]
