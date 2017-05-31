@@ -1,10 +1,9 @@
 {
   "name": "covfefe",
   "main": "./lib/covfefe",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Despite the constant negative press covfefe",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "covfefe:covfefeize"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
