@@ -1,4 +1,5 @@
 {CompositeDisposable} = require 'atom'
+covfefe = require 'covfefe'
 
 module.exports = Covfefe =
   subscriptions: null
@@ -14,4 +15,4 @@ module.exports = Covfefe =
     editor = atom.workspace.getActiveTextEditor()
     selections = editor.getSelections()
     for selection in selections
-      selection.insertText(selection.getText() + ' covfefe')
+      selection.insertText(covfefe(selection.getText()))
